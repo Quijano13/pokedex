@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"></link>
+</head>
+<body>
+
+  <nav class="navbar bg-danger">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light">POKEDEX</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar pokemon" aria-label="Search" id="buscar">
+        <button class="btn btn-dark" type="button" id="btnBuscar">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+    <div class="container-fluid">
+        <div class="row mt-2" id="info">
+            
+        </div>
+    </div>
+
+    <nav aria-label="Page navigation example" class="mt-2">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="btn btn-light" id="back" href="#">Anterior</a>
+        </li>
+        <a class="btn btn-light disabled" href="#" id="pagina">1</a>
+        <li class="page-item">
+          <a class="btn btn-light " id="next" href="#">Siguiente</a>
+        </li>
+      </ul>
+    </nav>
+
+</body>
+<script src="index2.js" type="module"></script>
+</html>
